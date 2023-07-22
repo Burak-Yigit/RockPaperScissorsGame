@@ -24,7 +24,7 @@ Choose one of them - ROCK / PAPER / SCISSORS```
 In this screen, you can see your balance after betting. This is of course temporary. Once, you win the game, you will get your bet amount back by doubling it.
 You will need to choose one of them. "Rock Paper Scissors" After you choose them, you will see the result.
 
-```
+
 Your choice: ROCK
 Computer choice: SCISSORS
 You have won $50
