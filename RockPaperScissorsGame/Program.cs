@@ -86,7 +86,17 @@ namespace RockPaperScissorsGame
                         Console.WriteLine("Current Balance After Betting: " + account.balance);
 
                         Console.WriteLine("Choose one of them - ROCK / PAPER / SCISSORS");
-                        player = Console.ReadLine().ToUpper();
+                        while(true)
+                        {
+                            player = Console.ReadLine().ToUpper();
+                            if (player == "ROCK" || player == "PAPER" || player == "SCISSORS")
+                            {
+                                break;
+                            }
+                            Console.Clear();
+                            Console.WriteLine("You can only Enter 'Rock/Paper/Scissors' ");
+                        }
+                        
 
 
                     }
